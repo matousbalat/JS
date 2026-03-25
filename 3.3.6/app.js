@@ -22,7 +22,7 @@ for (let a = 0; a < 10; a++) {
     console.log(a);
 }
 
-for (let b = 0; b < 10; b++) {               
-    if (b === 7) break;
-    console.log(b);
+for (let c = 0; c < 10; c++) {               
+    if (c === 7) continue;
+    console.log(c);
 }
