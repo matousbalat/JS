@@ -1,4 +1,4 @@
-let counter = 0;
+let counter = 2;
 
 while (counter < 10) {
     console.log(counter);

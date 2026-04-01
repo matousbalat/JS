@@ -1,7 +1,19 @@
-let counter = 2;
+let i = 2;
 
-while (2 < counter && counter < 100) {
-    console.log(counter);
-    counter++;
+while (i < 100){
+    if (i ===50){
+        i++;
+        continue;
+     }   
+
+     if (i % 2 === 0){
+        console.log(i);
+     }
+
+     i++
 }
+
+
+
+
 
