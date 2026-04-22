@@ -47,6 +47,6 @@ function vypisCisla(zacatek, konec ){
     for (let i = zacatek; i <= konec; i++) {
         console.log(i);
     }
-    zacatek = 20;
-    konec = 30;
+    
 }
+vypisCisla(3, 7);
