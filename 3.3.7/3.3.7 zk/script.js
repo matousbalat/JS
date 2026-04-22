@@ -30,15 +30,23 @@ console.log(y);
    
 //Parametr & Argument
  
-function sayHello(name) { // name = parametr
+function test(name) { // name = parametr
      console.log("Ahoj" + name);
 }
  
-sayHello("Alice");
+test("Alice");
+test(123);
  
-function addNumber(num1, nuum2) {
+function scitani(num1, nuum2) {
     console.log(num1 + nuum2);
 }
  
-addNumber(5,8);
- 
+scitani(5,8);
+
+function vypisCisla(zacatek, konec ){
+    for (let i = zacatek; i <= konec; i++) {
+        console.log(i);
+    }
+    zacatek = 20;
+    konec = 30;
+}
