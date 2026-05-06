@@ -15,11 +15,11 @@ console.log(r);
 //funkce s returnem
 
 function nasobic2(a,b) {
-    return (a * b);
+    return a * b;
 }
 
 let r2 = nasobic2(5, 6);
-console.log(r2 + 1);
+console.log(r2);
 
 //return  ukončí funkci
 
